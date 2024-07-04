@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Search with Gemini AI</title>
+  <style>
+    body { width: 300px; padding: 10px; font-family: Arial, sans-serif; }
+    .section { margin-bottom: 15px; }
+    .label { font-weight: bold; margin-bottom: 5px; }
+    #selectedText, #result { 
+      background-color: #f0f0f0; 
+      padding: 10px; 
+      border-radius: 5px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+  </style>
+</head>
+<body>
+  <div class="section">
+    <div class="label">Selected Text:</div>
+    <div id="selectedText">No text selected</div>
+  </div>
+  <div class="section">
+    <div class="label">Gemini AI Analysis:</div>
+    <div id="result">Select text on any webpage to analyze.</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
